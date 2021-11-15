@@ -1,0 +1,36 @@
+[[package]]
+name = "guizero"
+version = "1.2.0"
+description = "Python module to allow learners to easily create GUIs"
+category = "main"
+optional = false
+python-versions = ">=3"
+
+[package.extras]
+images = ["pillow (>=4.3.0)"]
+
+[[package]]
+name = "tabulate"
+version = "0.8.9"
+description = "Pretty-print tabular data"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+widechars = ["wcwidth"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "4668cef9339a51d2d22aff3405ad11627d799394ad6b4db3004537b2f478e1f5"
+
+[metadata.files]
+guizero = [
+    {file = "guizero-1.2.0-py3-none-any.whl", hash = "sha256:5acc7f74a00236e641dac0667ad34a98d83605b857d07f18a098dfdeeb953f40"},
+    {file = "guizero-1.2.0.tar.gz", hash = "sha256:0d8fbb0d4fc5e2aaf59e7633ba4119eb4811b58ef45328177aae7f2fc810b086"},
+]
+tabulate = [
+    {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
+    {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
+]
